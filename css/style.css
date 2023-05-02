@@ -364,6 +364,8 @@ footer {
   margin-left: 250px;
   margin-right: 250px;
   justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 56px;
 }
 
 .cards-portofolio {
@@ -381,20 +383,11 @@ footer {
 .card-portofolio:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 .cards-portofolio li {
   margin-bottom: 20px;
   margin-right: 20px;
-}
-
-.crd-text-portofolio {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
-  color: #757575;
 }
 .crd-title-portofolio {
   font-family: "Roboto";
@@ -404,4 +397,17 @@ footer {
   line-height: 36px;
   letter-spacing: 0.06em;
   color: #212121;
+  margin-left: 24px;
+  margin-bottom: 0;
+}
+
+.crd-text-portofolio {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-left: 24px;
+  margin-top: 10px;
 }
